@@ -13,6 +13,11 @@ export default function Test() {
       <div>
         Page number <span>{number}</span>
       </div>
+      <div>
+        <Link className="underline" href="/">
+          Link to /index page
+        </Link>
+      </div>
     </main>
   )
 }
